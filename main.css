@@ -1,0 +1,94 @@
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+#content h1 {
+	margin-top: 10px;
+	text-transform: uppercase;
+	font-size: 5.4em;
+	font-weight: 700;
+	color: #1b9e49;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			 0px 8px 13px rgba(0,0,0,0.1),
+			 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+#content h2 {
+	margin-top: 90px;
+	font-size: 2.5em;
+	font-weight: 400;
+}
+
+#content h3 {
+	font-size: 1.95em;
+	font-weight: 400;
+
+}
+
+.form{
+	width: 50%;
+	margin: 25px auto;
+}
+
+
+#content {
+	padding-top: 3%;
+	margin: 0px auto;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+input {
+  text-align: center;
+
+}
+
+input.form-control {
+	height: 50px;
+	font-size: 2em;
+}
+
+.form button {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+			 0px 8px 13px rgba(0,0,0,0.1),
+			 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+footer {
+	text-align: center;
+	padding-top: 5%;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+/* footer {
+	padding: 20px;
+} */
+
+footer img {
+	max-height: 150px;
+	max-width: 150px;
+	min-height: 75px;
+	min-width: 75px;
+	opacity: 0.75;
+}
+
+#usc_logo {
+	float: left;
+	margin-left: 5%;
+}
+#enviro_logo {
+	float: right;
+	margin-right: 5%;
+}
